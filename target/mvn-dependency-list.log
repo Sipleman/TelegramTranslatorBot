@@ -1,0 +1,8 @@
+
+The following files have been resolved:
+   com.squareup.okio:okio:jar:1.13.0:compile
+   com.github.pengrad:java-telegram-bot-api:jar:3.6.0:compile
+   com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+   com.google.code.gson:gson:jar:2.8.2:compile
+   com.squareup.okhttp3:logging-interceptor:jar:3.9.0:compile
+

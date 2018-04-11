@@ -17,6 +17,14 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:3.9.0" level="project" />
-    <orderEntry type="library" name="jafregle-1.0.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.jarfr:jarfr:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jafregle-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

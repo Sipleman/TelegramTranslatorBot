@@ -25,56 +25,60 @@ public class TranslatorBot{
 
     private static int offset = 0;
 
-    private static final LangNode enToRu = new LangNode("en", "ru");
-    private static final LangNode ruToEn = new LangNode("ru", "en");
-
-    private Map.Entry<String, String> entry;
-
-    //TODO: REDO THIS FUCKING SHIT
-    private static boolean isTranslating = false;
-
     private static Map<Long, Map.Entry> clients = new HashMap<Long, Map.Entry>();
 
     private static GetUpdates getUpdates = new GetUpdates().limit(100).offset(offset).timeout(0);
     public static void main(String[] args) {
         startBot();
     }
+
+    private static List<Update> getUpdates() throws RuntimeException{
+        GetUpdatesResponse getUpdatesResponse;
+        try {
+            getUpdatesResponse = bot.execute(getUpdates);
+            return getUpdatesResponse.updates();
+        }catch(RuntimeException e){
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private static void recognizeCommand(Message message){
+        if(clients.containsKey(message.chat().id())){
+            Map.Entry langs = clients.get(message.chat().id());
+            translateText(message, langs.getKey(), langs.getValue());
+            clients.remove(message.chat().id());
+        }
+        if(message.text().equals("/start")){
+            helloMessage(message);
+        }
+
+        if(message.text().equals("/translate")){
+            translateCommand(message);
+            if(!clients.containsKey(message.chat().id())){
+                clients.put(message.chat().id(), new LangNode("en", "ru"));
+            }
+        }
+        if(message.text().equals("/toen")){
+            translateCommand(message);
+            if(!clients.containsKey(message.chat().id())){
+                clients.put(message.chat().id(), new LangNode("ru", "en"));
+            }
+        }
+    }
     private static void startBot() {
         while (true) {
             getUpdates.offset(offset);
-            GetUpdatesResponse getUpdatesResponse;
-            try {
-                getUpdatesResponse = bot.execute(getUpdates);
-            }catch(RuntimeException e){
-                e.printStackTrace();
+            List<Update> updatesList;
+            try{
+                updatesList = getUpdates();
+            }catch (RuntimeException ex){
+                System.out.println("Something bad was happened");
                 continue;
             }
-            List<Update> updatesList = getUpdatesResponse.updates();
 
             for (Update update : updatesList) {
-                Message message = update.message();
-                if(clients.containsKey(message.chat().id())){
-                    Map.Entry langs = clients.get(message.chat().id());
-                    translateWord(message, langs.getKey(), langs.getValue());
-                    clients.remove(message.chat().id());
-                }
-                if(message.text().equals("/start")){
-                    helloMessage(message);
-                    continue;
-                }
-
-                if(message.text().equals("/translate") && !isTranslating){
-                    translateCommand(message);
-                    if(!clients.containsKey(message.chat().id())){
-                        clients.put(message.chat().id(), new LangNode("en", "ru"));
-                    }
-                }
-                if(message.text().equals("/toen")){
-                    translateCommand(message);
-                    if(!clients.containsKey(message.chat().id())){
-                        clients.put(message.chat().id(), new LangNode("ru", "en"));
-                    }
-                }
+                recognizeCommand(update.message());
             }
             if(!updatesList.isEmpty())
                 offset = updatesList.get(updatesList.size()-1).updateId() + 1;
@@ -91,7 +95,7 @@ public class TranslatorBot{
         SendResponse response = bot.execute(request);
         boolean ok = response.isOk();
     }
-    private static void translateWord(Message message, Object from, Object to){
+    private static void translateText(Message message, Object from, Object to){
         Translator translator = new FreeGoogleTranslator();
         String s = "";
         try {
