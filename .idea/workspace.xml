@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e8ed5b-9035-4691-b6b0-14eec086174e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/TelegramTranslatorBot-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/bin/workerBot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/bin/workerBot.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ilias/translator_bot/TranslatorAPI/FreeGoogleTranslator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ilias/translator_bot/TranslatorAPI/Translator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ilias/translator_bot/TranslatorBot.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/ilias/translator_bot/Utils/LangNode.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/dependency/gson-2.8.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/dependency/java-telegram-bot-api-3.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/dependency/logging-interceptor-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/dependency/okhttp-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/dependency/okio-1.13.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/.heroku-deploy" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/Procfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/TelegramTranslatorBot-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/bin/workerBot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/bin/workerBot.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/ilias/translator_bot/TranslatorAPI/FreeGoogleTranslator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/ilias/translator_bot/TranslatorAPI/Translator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/ilias/translator_bot/TranslatorBot.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/com/ilias/translator_bot/Utils/LangNode.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/gson-2.8.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/java-telegram-bot-api-3.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/logging-interceptor-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/okhttp-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/dependency/okio-1.13.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/mvn-dependency-list.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/github/pengrad/java-telegram-bot-api/3.6.0/java-telegram-bot-api-3.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/github/pengrad/java-telegram-bot-api/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/google/code/gson/gson/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okhttp3/logging-interceptor/3.9.0/logging-interceptor-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okhttp3/logging-interceptor/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okhttp3/okhttp/3.9.0/okhttp-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okhttp3/okhttp/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/com/squareup/okio/okio/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/groupId/TelegramTranslatorBot/1.0-SNAPSHOT/TelegramTranslatorBot-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/groupId/TelegramTranslatorBot/1.0-SNAPSHOT/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/heroku/app/target/repo/groupId/TelegramTranslatorBot/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mvn-dependency-list.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/github/pengrad/java-telegram-bot-api/3.6.0/java-telegram-bot-api-3.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/github/pengrad/java-telegram-bot-api/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/google/code/gson/gson/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/logging-interceptor/3.9.0/logging-interceptor-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/logging-interceptor/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/3.9.0/okhttp-3.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/groupId/TelegramTranslatorBot/1.0-SNAPSHOT/TelegramTranslatorBot-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/groupId/TelegramTranslatorBot/1.0-SNAPSHOT/maven-metadata-appassembler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/repo/groupId/TelegramTranslatorBot/maven-metadata-appassembler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/TelegramTranslatorBot.iml" afterPath="$PROJECT_DIR$/TelegramTranslatorBot.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilias/translator_bot/TranslatorBot.java" afterPath="$PROJECT_DIR$/src/main/java/com/ilias/translator_bot/TranslatorBot.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -440,12 +372,20 @@
       <option name="presentableId" value="Default" />
       <updated>1522914882910</updated>
       <workItem from="1522914886034" duration="4582000" />
-      <workItem from="1523445315576" duration="2659000" />
+      <workItem from="1523445315576" duration="2724000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactoring">
+      <created>1523448041323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523448041323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7241000" />
+    <option name="totallyTimeSpent" value="7306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +398,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -471,7 +410,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
