@@ -1,1 +1,1 @@
-worker: sh target/bin/workerBot
+worker: java -jar target/TelegramTranslatorBot-1.0-SNAPSHOT-jar-with-dependencies.jar
