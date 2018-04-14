@@ -76,7 +76,7 @@ public class TranslatorBot{
                 System.out.println("Something bad was happened");
                 continue;
             }
-
+            if(updatesList== null || updatesList.isEmpty()) continue;
             for (Update update : updatesList) {
                 recognizeCommand(update.message());
             }

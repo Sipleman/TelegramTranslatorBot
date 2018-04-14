@@ -25,9 +25,16 @@ public class FreeGoogleTranslator implements Translator {
     public String requestTranslation(String text, Object from, Object to) throws IOException{
         String encodedText = URLEncoder.encode(text, "UTF-8");
         String params = String.format(stringForFormatRequest, from, to, encodedText);
+        System.out.println(params
+        );
         HttpResponse<String> response = null;
         try {
-            response = Unirest.get(params).asString();
+            response = Unirest.get(params)
+                    .header("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36")
+                    .header("Accept-Encoding", "gzip, deflate, br")
+                    .header("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+                    .asString();
+            System.out.println(URLEncoder.encode(response.getBody(), "UTF-8"));
         }catch (Exception e){
             e.printStackTrace();
         }
